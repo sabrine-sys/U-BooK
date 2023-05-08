@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--<item
+        android:id="@+id/action_logout"
+        android:icon="@drawable/ic_baseline_lock_24"
+        android:title="@string/logout"
+        android:onClick="logout"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_setting"
+        android:icon="@drawable/ic_baseline_settings_24"
+        android:title="@string/action_settings"
+        android:onClick="settings"
+        app:showAsAction="never" />-->
+
+    <item android:id="@+id/action_notification1"
+        android:icon="@drawable/ic_more"
+        app:showAsAction="always"
+        android:title="">
+        <menu>
+            <item android:id="@+id/action_logout"
+                android:icon="@drawable/ic_baseline_lock_24"
+                android:title="@string/logout"
+                android:onClick="logout"/>
+            <item android:id="@+id/action_setting"
+                android:icon="@drawable/ic_baseline_settings_24"
+                android:title="@string/action_settings"
+                android:onClick="settings"/>
+        </menu>
+    </item>
+
+</menu>
